@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.mobile-menu{
+    display: block;
+    width: 100%;
+    background: #b700ff94;
+    line-height: 1.6em;
+    font-weight: 400px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.mobile-menu ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background: #b700ff81;
+}
+.mobile-menu li{
+    display: inline-block;
+
+}
+.mobile-menu li a{
+    display: inline-block;
+    min-width: 140px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+    text-transform: uppercase;
+    background-color:pink;
+    text-decoration: white;
+}
